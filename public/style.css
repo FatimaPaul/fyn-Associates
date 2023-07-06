@@ -1,0 +1,45 @@
+*{
+    font-family: 'Mukta', sans-serif;
+}
+
+.nav-color{
+    background-color: rgba(3, 3, 3, 0.673);
+}
+
+.height{
+    height: 90vh;
+}
+
+.height1 {
+    height: 100%;
+}
+
+.background{
+    background-image: url(images/person.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+
+.text{
+    color: white;
+}
+
+.btn-cover{
+    background-color: rgb(223, 103, 5);
+}
+
+.btn-cover:hover{
+    background-color: rgba(255, 128, 0, 0.821);
+}
+
+.footer-color{
+    background-color: rgba(3, 3, 3, 0.863);
+
+}
+
+.bg-back{
+    background-color: rgb(223, 103, 5);
+}
+

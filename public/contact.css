@@ -1,0 +1,32 @@
+*{
+    font-family: 'Mukta', sans-serif;
+}
+
+.height{
+    height: 100%;
+}
+
+.nav-color{
+    background-color: rgba(3, 3, 3, 0.673);
+}
+
+.color {
+    background-color: rgb(223, 103, 5);;
+}
+
+.footer-color{
+    background-color: rgba(3, 3, 3, 0.863);
+}
+
+.footer-height{
+    height: 20vh;
+}
+
+.input{
+    border: none;
+    outline: none;
+}
+
+.color1{
+    color: rgb(223, 103, 5);
+}

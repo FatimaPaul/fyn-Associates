@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="contact.css">
+    <link rel="shortcut icon" href="images/fyn_resize.png" type="image/x-icon">
+</head>
+<body>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg nav-color">
+      <div class="container ps-5">
+          <a class="navbar-brand text-light ms-5 ps-3 w-25" href="index.html"><div class="width"><img src="images/fyn_resize.png" alt="" width="50%">
+          <span class="text-bold">FYN ASSOCIATES</span></div></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse fs-5" id="navbarNav">
+          <!-- link list -->
+              <ul class="navbar-nav w-100 d-flex justify-content-center">
+                  <li class="nav-item ps-5 ms-3">
+                    <a class="nav-link text-light" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item ps-5 ms-3">
+                    <a class="nav-link text-light" href="about-us.html">About</a>
+                  </li>
+                  <li class="nav-item ps-5 ms-3">
+                    <a class="nav-link text-light" href="services.html">Services</a>
+                  </li>
+                  <li class="nav-item ps-5 ms-3">
+                    <a class="nav-link text-light" href="supplies.html">Supplies</a>
+                  </li>
+                  <li class="nav-item ps-5 ms-3">
+                    <a class="nav-link text-light" href="contact.html">Contact</a>
+                  </li>
+              </ul>
+              
+        </div>
+      </div>
+    </nav>
+  <!-- navbar end -->
+
+    <!-- contact us form start-->
+    <div class="container bg-light mt-5 w-100 height shadow rounded p-4">
+      <div><h1 class="display-4 color1">Contact</h1></div>
+      <form>
+        <div class="mx-auto row bg-white w-100 d-flex justify-content-center pt-5 rounded mt-5">
+          <div class="col-md-5 col-sm-10 col-12 mb-4 bg-body">
+            <div><label for="firstName" class="fs-4 color1">First Name</label></div>
+            <div class="border border-1"><input type="text" id="firstName" class="py-2 fs-5 rounded input" ></div>
+          </div>
+
+          <div class="col-md-5 col-sm-10 col-12 overflow-hidden mb-4">
+            <div><label for="lastName" class="fs-4 color1">Last Name</label></div>
+            <div class="border border-1"><input type="text" id="lastName" class="py-2 fs-5 rounded input"></div>
+          </div>
+
+          <div class="col-md-5 col-sm-10 col-12 overflow-hidden mb-4">
+            <div><label for="company" class="fs-4 color1">Company</label></div>
+            <div class="border border-1"><input type="text" id="company" class="py-2 fs-5 rounded input"></div>
+          </div>
+
+          <div class="col-md-5 col-sm-10 col-12 overflow-hidden mb-4 ">
+            <div><label for="email" class="fs-4 color1">E-mail</label></div>
+            <div class="border border-1"><input type="email" id="email" class="py-2 fs-5 rounded input"></div>
+          </div>
+
+          <div class="col-md-5 col-sm-10 col-12 overflow-hidden mb-4">
+            <div><label for="phone" class="fs-4 color1">Phone No.</label></div>
+            <div class="border border-1"><input type="text" id="phone" class="py-2 fs-5 rounded input" ></div>
+          </div>
+
+          <div class="col-md-5 col-sm-10 col-12 overflow-hidden mb-4">
+            <div><label for="telephone" class="fs-4 color1">Tel No.</label></div>
+            <div class="border border-1"><input type="text" id="telephone" class="py-2 fs-5 rounded input"></div>
+          </div>
+
+        </div>
+      </form>
+      <div class="text-center"><button onclick="contact()" type="button" class="btn btn-light px-4 py-2 mt-5 mb-5 color text-light mt-3 fs-4">Submit</button></div>
+    </div>
+    <!-- contact us form end -->
+
+    <!-- footer start -->
+    <div class="container-fluid footer-color mt-5 text-light">
+      <div class="container w-100 h-100">
+          <div class="row h-75 p-5">
+              <!-- about -->
+              <div class="col-md-4 col-12 h-100 mb-1 p-3">
+                  <div><h3>FYN ASSOCIATES</h3></div>
+                  <div><p class="fs-5">Civil Contractors, Builders and General Order Suppliers</p></div>
+              </div>
+              <!-- contact -->
+              <div class="col-md-4 col-12 h-100 mb-4 p-3">
+                  <div><h3>CONTACTS</h3></div>
+                  <div class="ps-1 mb-2">
+                      <div>
+                      <i class="fa-solid fa-phone"></i> <span class="fs-5">021-34993959</span>
+                      <br>
+                      <span class="ps-3 fs-5">+92 3122155457</span>
+                      </div>  
+                  </div>
+                  <div class="ps-1">
+                      <i class="fa-solid fa-location-dot"></i> <span class="fs-5">Gulshan e Iqbal, Block 16, Karachi</span>
+                  </div>
+              </div>
+              <!-- social media -->
+              <div class="col-md-4 col-12 h-100 mb-4 p-3">
+                  <div><h3>FOLLOW US</h3></div>
+                  <div class="mb-2">
+                      <a href="https://www.instagram.com/fyn.associates/" class="text-light pe-2"><i class="fs-5 fa-brands fa-instagram"></i></a>
+                      <a href="https://www.facebook.com/profile.php?id=100094085959771&mibextid=ZbWKwL" class="text-light pe-2"><i class="fs-5 fa-brands fa-facebook"></i></a>
+
+                  </div>
+                  <div >
+                      <i class="fa-solid fa-envelope fs-5"></i> <span class="fs-5">fyn.associates@gmail.com</span>
+                  </div>
+              </div>
+          </div>
+          <div>
+              <hr>
+              <div class="ps-5">Copyright © 2023. All right reserved.</div>
+          </div>
+      </div>
+    </div>
+<!-- footer end -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script type="module" src="contact.js"></script>
+</body>
+</html>

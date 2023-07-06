@@ -1,0 +1,16 @@
+*{
+    font-family: 'Mukta', sans-serif;
+}
+
+.nav-color{
+    background-color: rgba(3, 3, 3, 0.673);
+}
+
+.color {
+    background-color: rgb(223, 103, 5);
+}
+
+.footer-color{
+    background-color: rgba(3, 3, 3, 0.863);
+
+}
